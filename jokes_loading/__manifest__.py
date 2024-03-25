@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
 {
-    'name' : 'Loading jokes',
+    'name' : 'Loading Jokes',
     'description':"""
-Menampilkan jokes saat odoo loading.
+menampilkan jokes saat odoo loading
     """,
     'version' : '1.0',
     'category': 'Web',
     'depends' : ['web'],
     'assets': {
         'web.assets_backend': [
-            'loading_jokes/static/src/js/loading_jokes.js',
+            'jokes_loading/static/src/js/jokes_loading.js'
         ]
     },
     'installable': True,
