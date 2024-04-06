@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+    <t t-name="PartnerDetailsEdit" t-inherit="point_of_sale.PartnerDetailsEdit" t-inherit-mode="extension">
+        <xpath expr="//label[@for='language']/.." position="after">
+            <div class="partner-detail col">                                                           
+                <label class="form-label label" for="umur">Umur</label>                           
+                <input class="detail umur form-control" id="umur" name="umur" t-model="changes.umur" />
+            </div>  
+        </xpath>
+    </t>
+
+</templates>
